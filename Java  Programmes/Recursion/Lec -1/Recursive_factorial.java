@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Recursive_factorial {
           public static int fact(int num) {
-                    if(num==0){
+                    if(num==0 || num==1){
                               return 1;
                     }
                     return num*fact(num-1);
