@@ -10,7 +10,7 @@ public class Recursive_Fibonacci {
                               return;
                     }
                     int c=a+b;
-                    System.out.println(c);
+                    System.out.print(c+" ");
                     fibonacci(b, c, n-1);
 
           }
@@ -20,8 +20,8 @@ public class Recursive_Fibonacci {
               int n=sc.nextInt();
               int a=0;
               int b=1;
-              System.out.println(a);
-              System.out.println(b);
+              System.out.print(a+" ");
+              System.out.print(b+" ");
               fibonacci(a, b, n-2);
 
           }
