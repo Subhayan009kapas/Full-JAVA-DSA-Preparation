@@ -22,7 +22,5 @@ public class Check_sorted_array {
         int idx=0;
         checkSort(array, idx);
        
- 
-
     }
 }
