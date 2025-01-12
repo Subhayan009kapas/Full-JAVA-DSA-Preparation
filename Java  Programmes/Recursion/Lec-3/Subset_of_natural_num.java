@@ -7,12 +7,11 @@ public class Subset_of_natural_num {
                               return;
                     }
 
-                    subset.add(n);
-                    find_subset(n-1, subset);
-                  
+                 subset.add(n);
+                 find_subset(n-1, subset);
 
-                    subset.remove(subset.size()-1);
-                    find_subset(n-1, subset);
+                 subset.remove(subset.size()-1);
+                 find_subset(n-1, subset);
               
           }
         
