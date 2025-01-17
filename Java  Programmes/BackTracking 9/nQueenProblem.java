@@ -53,19 +53,18 @@ public class nQueenProblem {
     }
 
     public static void save(List<List<String>> allboard ,char board[][]) {
-          String row="";
+          
           List<String> newboard=new ArrayList<>();
           for(int i=0;i<board.length;i++){
+            String row="";
                     for(int j=0 ;j<board.length ;j++){
                               row+=board[i][j];
 
-                    }
+                    }                                                               
                     newboard.add(row);
           }
           allboard.add(newboard);
-         
-
-
+        
     }
 
     public static void helper(List<List<String>> allboard, char board[][], int col) {
