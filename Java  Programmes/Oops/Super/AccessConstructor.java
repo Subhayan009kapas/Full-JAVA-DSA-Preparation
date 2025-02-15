@@ -7,7 +7,7 @@ class A{
 }
 class B extends A{
           public B(){
-                    super();;
+                    super();
                     System.out.println("@2nnd constreuctor ");
           }
 }
