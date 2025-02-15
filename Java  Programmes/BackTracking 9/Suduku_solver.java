@@ -67,6 +67,7 @@ public class Suduku_solver {
                     int col=0;
                     char board[][]=new char[9][9];
                     helper(board, row, col);
+                 
 
           }
 }

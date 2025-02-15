@@ -8,11 +8,11 @@ public class QuickSort {
         int pivot = arr[low];
         do {
             // i going forward
-            while (i <= high && arr[i] <= pivot) {
+            while (pivot>=arr[i] && i<high) {
                 i++;
             }
             // j going backward
-            while (j >= low && arr[j] > pivot) {
+            while (pivot<arr[j]  && j>=0 ) {
                 j--;
             }
             if (i < j) {
